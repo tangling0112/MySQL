@@ -72,7 +72,7 @@
 ### 默认字符集修改
 
 - 我们需要在`MySQL`的`Data File`的`mysql.ini`文件中找到`default-character-set=`选项,将其修改成我们需要的默认字符集即可(如`utf8,utf16,gbk,gbk2312`等)
-- <img src="F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\基础知识汇总_Windows.assets\image-20220629230227930.png" alt="image-20220629230227930" style="zoom:80%;" />
+- <img src="https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E6%B1%87%E6%80%BBWindows-1?token=AOAPFCNEXDN57SY5YO7SE4LC57WDE" alt="image-20220629230227930" style="zoom:80%;" />
 
 ### 显式地指明数据库/数据表使用的字符集
 
@@ -600,7 +600,7 @@
         - `SELECT s1.age,s1.name,s2.age,s2.name FROM students1 s1 FULL OUTER JOIN students2 s2 ON(s1.height = s2.height)`
       - **`MySQL`**(**不支持满外连接**)
 
-<img src="F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\基础知识汇总_Windows.assets\image-20220630211243062.png" alt="image-20220630211243062" style="zoom:80%;" />
+<img src="https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E6%B1%87%E6%80%BBWindows-2?token=AOAPFCLPFHMMEQTVORFRY33C57WFW" alt="image-20220630211243062" style="zoom:80%;" />
 
 ****
 
@@ -612,9 +612,9 @@
 >
 > - `UNION ALL`:拼接后会返回一个$[(10-5)+5]+[5+(20-5)]=30$条记录的结果下`下`
 
-![image-20220630211718491](F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\基础知识汇总_Windows.assets\image-20220630211718491.png)
+![image-20220630211718491](https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E6%B1%87%E6%80%BBWindows-3?token=AOAPFCJD7K3UVBCA33SCTV3C57WHE)
 
-<img src="F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\基础知识汇总_Windows.assets\image-20220630212408645.png" alt="image-20220630212408645" style="zoom:67%;" />
+<img src="https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E6%B1%87%E6%80%BBWindows-4?token=AOAPFCJTDEGAUUG4CG5AKL3C57WIE" alt="image-20220630212408645" style="zoom:67%;" />
 
 ****
 
@@ -978,7 +978,7 @@ WHERE e1.department_id <=> NULL;
 
 ### 命名规则
 
-![image-20220701211637422](F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\基础知识汇总_Windows.assets\image-20220701211637422.png)
+![image-20220701211637422](https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E6%B1%87%E6%80%BBWindows-5?token=AOAPFCK4NJ7CLNUQCM63LZ3C57WJ4)
 
 ## ==`MySQL`数据类型==
 
@@ -1017,7 +1017,7 @@ WHERE e1.department_id <=> NULL;
 > - 如果使用了`ZEROFILL`那么**系统会自动同时**使用`UNSIGNED`
 > - 宽度指定在整数类型上是不推荐使用的
 
-![image-20220702182014108](F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\基础知识汇总_Windows.assets\image-20220702182014108.png)
+![image-20220702182014108](https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E6%B1%87%E6%80%BBWindows-6?token=AOAPFCMUAI27DR3UIUKA3RTC57WKK)
 
 - 宽度指定`数据类型(<宽度>)`
 
@@ -1051,7 +1051,7 @@ WHERE e1.department_id <=> NULL;
 > - **浮点数类型由于其取值离散的特性会发生如`1.0+1.0=1.99999`类似的问题.而`MySQL`不像一些程序语言对于这一问题会进行处理,因此就会导致发生极其大的错误`1+1 != 2`**
 > - **由上面我们知道,我们如果用`=`来直接比较两个两个浮点数很可能发生问题**
 
-<img src="F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\基础知识汇总_Windows.assets\image-20220702182842998.png" alt="image-20220702182842998" style="zoom:90%;" />
+<img src="https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E6%B1%87%E6%80%BBWindows-7?token=AOAPFCPVGV7GDUWKDQTU52TC57WK6" alt="image-20220702182842998" style="zoom:90%;" />
 
 - **精度与标度**
 
@@ -1085,7 +1085,7 @@ WHERE e1.department_id <=> NULL;
 > - `DECIMAL(M,D)`关键字有如下可选属性
 >   - `M`:作用同浮点数的该属性
 >   - `D`:作用同浮点数的该属性
-> - ![image-20220702210256169](F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\基础知识汇总_Windows.assets\image-20220702210256169.png)
+> - ![image-20220702210256169](https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E6%B1%87%E6%80%BBWindows-8?token=AOAPFCK3SE2OXJGFJYYT4ATC57WLY)
 
 #### 注意事项
 
@@ -1101,7 +1101,7 @@ WHERE e1.department_id <=> NULL;
 
 ### 日期时间类型
 
-![image-20220702224514372](F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\基础知识汇总_Windows.assets\image-20220702224514372.png)
+![image-20220702224514372](https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E6%B1%87%E6%80%BBWindows-9?token=AOAPFCJCFOMPYRZWIDEMBZ3C57WMO)
 
 > **注意事项**
 >
@@ -1134,7 +1134,7 @@ WHERE e1.department_id <=> NULL;
 > - `ENUM`的效果类似于**自定义选项内容以及个数**的**单选题**
 > - `SET`的效果类似于**自定义选项内容以及个数**的**多选题**
 
-<img src="F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\基础知识汇总_Windows.assets\image-20220702213409420.png" alt="image-20220702213409420" style="zoom:89%;" />
+<img src="https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E6%B1%87%E6%80%BBWindows-10?token=AOAPFCNVOG6J35LVXGFN7BDC57WNC" alt="image-20220702213409420" style="zoom:89%;" />
 
 #### `CHAR`与`VARCHAR`类型的使用与比较
 
@@ -1171,7 +1171,7 @@ WHERE e1.department_id <=> NULL;
 >
 > **注意**:由于`TEXT`类型及其衍生类型能够保存的字符串长度越来越长,因此只用一个字节已经无法保存其所存储的字符串的长度,这也就导致了不同的`TEXT`类型有的`+2字节`有的`+3字节`甚至有的`+4字节`
 
-![image-20220703000157545](F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\基础知识汇总_Windows.assets\image-20220703000157545.png)
+![image-20220703000157545](https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E6%B1%87%E6%80%BBWindows-11?token=AOAPFCO4DFMQJVJFSHBAUD3C57WNY)
 
 #### `ENUM`枚举类型
 
@@ -1183,7 +1183,7 @@ WHERE e1.department_id <=> NULL;
 > - **如果以`'字符串1,字符串2,字符串3'`的方式存入数据,就算三个字符串都是枚举列表中的元素,存储也会失败**
 > - **只有`'字符串'`或`NULL`两种方式被支持**
 
-![image-20220703000755965](F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\基础知识汇总_Windows.assets\image-20220703000755965.png)
+![image-20220703000755965](https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E6%B1%87%E6%80%BBWindows-12?token=AOAPFCOGRMXI5A3JTEEEK2LC57WOI)
 
 ##### 使用示例
 
@@ -1220,7 +1220,7 @@ VALUES(NULL);
 > - **如果以`'字符串1,字符串2,字符串3'`的方式存入数据,只要三个字符串都是集合列表中的元素,存储会顺利地正确地进行**
 > - **有`'字符串1'`或`字符串1,字符串2,字符串3`或`NULL`三种存入方式被支持**
 
-![image-20220703000812060](F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\基础知识汇总_Windows.assets\image-20220703000812060.png)
+![image-20220703000812060](https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E6%B1%87%E6%80%BBWindows-13?token=AOAPFCMASJEHEJIW3BFWA33C57WO4)
 
 ##### 使用示例
 
@@ -1262,9 +1262,9 @@ VALUES(NULL);
 > - `BLOB`类型与其衍生类型一般用于保存`图片`,`音频`,`视频`等数据.
 > - **通常我们并不应该使用`BLOB`去直接保存`图片`等文件.而是应该将这类大存储空间占用数据存储在磁盘上,而我们的数据库只保存从磁盘上访问该数据的路径方法**
 
-![image-20220703122526722](F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\基础知识汇总_Windows.assets\image-20220703122526722.png)
+![image-20220703122526722](https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E6%B1%87%E6%80%BBWindows-14?token=AOAPFCI64EYKU2A3DRKP2SLC57WPW)
 
-![image-20220703123013458](F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\基础知识汇总_Windows.assets\image-20220703123013458.png)
+![image-20220703123013458](https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E6%B1%87%E6%80%BBWindows-15?token=AOAPFCMEDSBFNVMR7YGFH33C57WQG)
 
 ##### 使用实例
 
@@ -1794,9 +1794,9 @@ VALUES(NULL);
 
 > 注意事项
 
-![image-20220703142507872](F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\基础知识汇总_Windows.assets\image-20220703142507872.png)
+![image-20220703142507872](https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E6%B1%87%E6%80%BBWindows-16?token=AOAPFCPYTLEJJB5I5XH6J3TC57WSA)
 
-![image-20220703142543349](F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\基础知识汇总_Windows.assets\image-20220703142543349.png)
+![image-20220703142543349](https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E6%B1%87%E6%80%BBWindows-17?token=AOAPFCI6XJGOJSLMYZMYCYDC57WS6)
 
 ### `PRIMARY KEY`主键约束
 
@@ -2149,7 +2149,7 @@ VALUES(NULL);
 
 ## 常见的数据库对象
 
-![image-20220703211822443](F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\基础知识汇总_Windows.assets\image-20220703211822443.png)
+![image-20220703211822443](https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E6%B1%87%E6%80%BBWindows-18?token=AOAPFCLSL5ALS7UIOKSM6ELC57WUE)
 
 ## 视图
 
@@ -2311,15 +2311,15 @@ VALUES(NULL);
 
 ### **不可更新**
 
-![image-20220703232052382](F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\基础知识汇总_Windows.assets\image-20220703232052382.png)
+![image-20220703232052382](https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E6%B1%87%E6%80%BBWindows-19?token=AOAPFCIZMHZ77NEHTUBXB4DC57WVC)
 
 ### 视图的优点
 
-![image-20220703233958096](F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\基础知识汇总_Windows.assets\image-20220703233958096.png)
+![image-20220703233958096](https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E6%B1%87%E6%80%BBWindows-20?token=AOAPFCPQNBFB2BUVEY7OJO3C57WVQ)
 
 ### 视图的缺点
 
-![image-20220703234029579](F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\基础知识汇总_Windows.assets\image-20220703234029579.png)
+![image-20220703234029579](https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E6%B1%87%E6%80%BBWindows-21?token=AOAPFCKYLOGJ2R4MQMCJMDTC57WWE)
 
 ## 存储过程
 
@@ -2423,13 +2423,13 @@ LANGUAGE SQL
 >   ```SQL
 >   #将终止标识符改为$
 >   DELIMITER $
->                         
+>                           
 >   CREATE PROCEDURE 存储过程名()
 >   [CHARACTERISTICS]
 >   BEGIN
 >   	存储过程语句体
 >   END
->                         
+>                           
 >   #将终止标识符改回;
 >   DELIMITER ;
 >   ```
@@ -2680,11 +2680,11 @@ DROP FUNCTION 存储函数名;
 
 ### 存储过程与存储函数对比
 
-![image-20220704142044462](F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\基础知识汇总_Windows.assets\image-20220704142044462.png)
+![image-20220704142044462](https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E6%B1%87%E6%80%BBWindows-22?token=AOAPFCM3RZ47DWYRH5XWGK3C57WXU)
 
 ### 存储过程的优缺点
 
-<img src="F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\基础知识汇总_Windows.assets\image-20220704143742175.png" alt="image-20220704143742175" style="dispaly:flex;zoom: 67%;" /><img src="F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\基础知识汇总_Windows.assets\image-20220704143752942.png" alt="image-20220704143752942" style="zoom:67%;" />
+<img src="https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E6%B1%87%E6%80%BBWindows-232?token=AOAPFCIHJ7OP7HUCK7CV7RDC57WYI" alt="image-20220704143742175" style="dispaly:flex;zoom: 67%;" /><img src="F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\基础知识汇总_Windows.assets\image-20220704143752942.png" alt="image-20220704143752942" style="zoom:67%;" />
 
 ## 变量
 
@@ -2914,11 +2914,11 @@ DROP FUNCTION 存储函数名;
 
 ### 应用实例
 
-<img src="F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\基础知识汇总_Windows.assets\image-20220704190901050.png" alt="image-20220704190901050" style="zoom:50%;" />
+<img src="https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E6%B1%87%E6%80%BBWindows-24?token=AOAPFCPKEI3BS6DRE4NIK6TC57WZO" alt="image-20220704190901050" style="zoom:50%;" />
 
 ### 错误码与错误条件
 
-<img src="F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\基础知识汇总_Windows.assets\image-20220704191216850.png" alt="image-20220704191216850" style="zoom:80%;" />
+<img src="https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E6%B1%87%E6%80%BBWindows-25?token=AOAPFCPHLJPVXJRQO2AYKWTC57WZ6" alt="image-20220704191216850" style="zoom:80%;" />
 
 - **错误码`MySQL_error_code`**:数值类型错误代码
 - **错误条件`sqlstate_value`**:字符串类型错误码

@@ -151,9 +151,9 @@
 
 ### 不同选项的含义
 
-<img src="F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220711142617890.png" alt="image-20220711142617890" style="zoom:75%;" />
+<img src="https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6?token=AOAPFCJ2ZVVXM7X2DGVYMA3C57XKE" alt="image-20220711142617890" style="zoom:75%;" />
 
-![image-20220711144230495](F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220711144230495.png)
+![image-20220711144230495](https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-2?token=AOAPFCI72YSQ2UY7VWQCAQ3C57XOQ)
 
 - `character_set_client`:服务器编解码请求时使用的字符集
 - `character_set_connection`:服务器处理请求时会把请求字符串从`character_set_client`转为`character_set_connection`
@@ -168,7 +168,7 @@
 
 - **后缀(如`_ai,_ci`)**
 
-![image-20220711143200471](F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220711143200471.png)
+![image-20220711143200471](https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-3?token=AOAPFCPU2AQVUSH2XFHBRALC57XNY)
 
 - **查看常用字符集**
 
@@ -279,7 +279,7 @@ innodb_file_per_table=0 #0:代表系统表空间,1:代表独立表空间
 
 ### 登陆`MySQL`服务器
 
-![image-20220711160110363](F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220711160110363.png)
+![image-20220711160110363](https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-4?token=AOAPFCPDQA5AHH65X54USJTC57XQM)
 
 ### 创建新用户
 
@@ -463,11 +463,11 @@ innodb_file_per_table=0 #0:代表系统表空间,1:代表独立表空间
 
 > **权限基本分为三个级别**
 >
-> ![image-20220711172026881](F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220711172026881.png)
+> ![image-20220711172026881](https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-5?token=AOAPFCIJ27JW5FZUYTA2F2DC57XRA)
 
 #### 权限授予基本原则
 
-![image-20220711172037647](F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220711172037647.png)
+![image-20220711172037647](https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-6?token=AOAPFCJ5PT22YCERLCOWESDC57XRS)
 
 #### 用户权限相关的信息的存储位置
 
@@ -557,9 +557,9 @@ innodb_file_per_table=0 #0:代表系统表空间,1:代表独立表空间
 
 - **用户权限相关列**
 
-  <img src="F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220711215753035.png" alt="image-20220711215753035" style="zoom: 80%;" />
+  <img src="https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-7?token=AOAPFCP3HFD5KXJU2QGJPZ3C57XSE" alt="image-20220711215753035" style="zoom: 80%;" />
 
-  ![image-20220711222222509](F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220711222222509.png)
+  ![image-20220711222222509](https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-8?token=AOAPFCLPYTICNXWATKUIRDLC57XS4)
 
 - `password_lifetime`：用于在密码过期策略生效情况下，存储该用户的密码有效时长
 
@@ -612,7 +612,7 @@ innodb_file_per_table=0 #0:代表系统表空间,1:代表独立表空间
 
 > **  **
 
-<img src="F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220711233256995.png" alt="image-20220711233256995" style="zoom:80%;" />
+<img src="https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-9?token=AOAPFCLVR6QOELNL4Q45G5DC57XTU" alt="image-20220711233256995" style="zoom:80%;" />
 
 ## `MySQL`角色(`ROLE`)管理
 
@@ -628,7 +628,7 @@ innodb_file_per_table=0 #0:代表系统表空间,1:代表独立表空间
 >
 > - 我们可以更少地关心某个特定用户所具备的权限,转而将大部分精力都用于对角色的权限的控制上,某个角色的权限改变,那么扮演该角色的所有用户的权限也会随之改变
 >
->   <img src="F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220712000300966.png" alt="image-20220712000300966" style="zoom:80%;" />
+>   <img src="https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-10?token=AOAPFCORAUANH4OGFSUAE3LC57XUO" alt="image-20220712000300966" style="zoom:80%;" />
 
 ### 角色初始化操作
 
@@ -742,15 +742,15 @@ innodb_file_per_table=0 #0:代表系统表空间,1:代表独立表空间
 
 ### 配置文件基本组成
 
-<img src="F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220712104041082.png" alt="image-20220712104041082" style="zoom: 50%;" />
+<img src="https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-11?token=AOAPFCLEQLFLL7DXAMGTXKLC57XVE" alt="image-20220712104041082" style="zoom: 50%;" />
 
 ### 配置文件中各个选项的用途
 
-<img src="F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220712104009564.png" alt="image-20220712104009564" style="zoom:50%;" />
+<img src="https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-12?token=AOAPFCI3OT46JZSRAATAYS3C57XV2" alt="image-20220712104009564" style="zoom:50%;" />
 
 ### 特定版本下的选项组
 
-<img src="F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220712104255142.png" alt="image-20220712104255142" style="zoom:50%;" />
+<img src="https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-13?token=AOAPFCK4EG6XQBRX2V6TQQDC57XWI" alt="image-20220712104255142" style="zoom:50%;" />
 
 ### 选项组的优先级关系
 
@@ -780,7 +780,7 @@ innodb_file_per_table=0 #0:代表系统表空间,1:代表独立表空间
 
 #### `SQL`语句处理的基础流程结构图
 
-<img src="F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220712111544733.png" alt="image-20220712111544733" style="zoom: 67%;" />
+<img src="https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-14?token=AOAPFCL74JEAE5AI4G6FB43C57XXI" alt="image-20220712111544733" style="zoom: 67%;" />
 
 - **处理连接**:
 - **查询缓存**:
@@ -789,7 +789,7 @@ innodb_file_per_table=0 #0:代表系统表空间,1:代表独立表空间
 
 #### `MySQL 5.7`的`SQL`处理服务具体组成架构
 
-<img src="F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220712111737970.png" alt="image-20220712111737970" style="zoom: 50%;" />
+<img src="https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-15?token=AOAPFCNYBOMYLCJDP72X3ETC57XXY" alt="image-20220712111737970" style="zoom: 50%;" />
 
 ##### 外部结构
 
@@ -817,7 +817,7 @@ innodb_file_per_table=0 #0:代表系统表空间,1:代表独立表空间
 
 ### `SQL`语句执行流程
 
-<img src="F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220712134625543.png" alt="image-20220712134625543" style="zoom:80%;" />
+<img src="https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-16?token=AOAPFCIPI5ESDU6FPQNJJCLC57XYI" alt="image-20220712134625543" style="zoom:80%;" />
 
 #### 查询缓存
 
@@ -856,11 +856,11 @@ innodb_file_per_table=0 #0:代表系统表空间,1:代表独立表空间
 >
 > **若成功解析则会生成语法树**
 >
-> <img src="F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220712141049837.png" alt="image-20220712141049837" style="zoom:67%;" />
+> <img src="https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-17?token=AOAPFCPGFFTACIZIRJM3WADC57XY2" alt="image-20220712141049837" style="zoom:67%;" />
 >
 > **解析过程**
 >
-> <img src="F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220712141419062.png" alt="image-20220712141419062" style="zoom:67%;" />
+> <img src="https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-18?token=AOAPFCMEPQNLV5Y2D6ED4ULC57XZM" alt="image-20220712141419062" style="zoom:67%;" />
 
 #### 优化器
 
@@ -877,7 +877,7 @@ innodb_file_per_table=0 #0:代表系统表空间,1:代表独立表空间
 
 ### `Oracle`中的`SQL`执行流程
 
-<img src="F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220712150043732.png" alt="image-20220712150043732" style="zoom:67%;" />
+<img src="https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-19?token=AOAPFCNO6JQ2RCRKSIK4WB3C57X2C" alt="image-20220712150043732" style="zoom:67%;" />
 
 - **共享池检查**:其主要作用与`MySQL`的查询缓存基本一致
   - **软解析**:即找到了匹配的查询语句,直接使用该缓存的语句的执行计划
@@ -891,7 +891,7 @@ innodb_file_per_table=0 #0:代表系统表空间,1:代表独立表空间
 > - 在上面的基础上,`MySQL`还建立了内存上的缓冲池,其中持久化地固定存储有大量的数据,当我们查询涉及到对这些数据的提取时,不再需要从`磁盘`进行读取,而是直接从内存读取,直接省略了`磁盘IO`这一步骤.当然值得注意的是,一般而言内存的存储量相对于磁盘而言是极小的,因此我们的`MySQL`系统不能考虑将所有的数据都导入到我们的内存中,而是要通过`数据的重要性=位置*访问频次`来决定一个数据的导入优先级.优先级高的数据才会被导入内存
 > - **预读特性**:
 
-<img src="F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220712154223111.png" alt="image-20220712154223111" style="zoom: 50%;" />
+<img src="https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-20?token=AOAPFCOHFCLBKTHP2BZZORDC57X22" alt="image-20220712154223111" style="zoom: 50%;" />
 
 数据缓冲池对数据的缓冲机制
 
@@ -959,7 +959,7 @@ SHOW VARIABLES LIKE 'innodb_buffer_pool_instances'
 > - **问题1**:**我们数据缓冲池中的数据什么时候刷新到我们的磁盘中**
 > - **问题2:如果在数据缓冲池中的数据在刷新到磁盘中之前,服务器进程挂掉了,内存中数据全部被释放了,那么有没有办法解决这一数据丢失的问题?**
 >
-> <img src="F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220712161216222.png" alt="image-20220712161216222" style="zoom:67%;" />
+> <img src="https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-21?token=AOAPFCIUKTKLU3ZERYBUMM3C57X3M" alt="image-20220712161216222" style="zoom:67%;" />
 
 #### 问题1
 
@@ -982,7 +982,7 @@ SHOW VARIABLES LIKE 'innodb_buffer_pool_instances'
   #SavaPoint:保存点
   ```
 
-  ![image-20220712163951695](F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220712163951695.png)
+  ![image-20220712163951695](https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-22?token=AOAPFCJJJBFMLVTGMKZP7FTC57X4G)
 
 - **查看当前系统的默认引擎**
 
@@ -1211,7 +1211,7 @@ SHOW VARIABLES LIKE 'innodb_buffer_pool_instances'
 - 由于一个页所占据的存储空间块的总空间有限,因此往往我们一张数据表上的数据无法存储在一个页上,而是需要在多个页上分别存储.
 - 为了简单起见,我们假设数据表的存储的最小单元为一个记录,即若当前页所剩的存储空间无法完整存储下我们需要保存的记录,那么我们就申请新的页来进行记录的保存.
 - 最终我们的`MySQL`数据表存储结构就变成了,一个数据表被拆分为大量的页,每一个页中保存着一定数目的记录
-  - ![image-20220712211522415](F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220712211522415.png)
+  - ![image-20220712211522415](https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-23?token=AOAPFCKKMNR4NJP7QAH3D2TC57X5I)
 
 ### 为什么引入索引
 
@@ -1223,18 +1223,18 @@ SHOW VARIABLES LIKE 'innodb_buffer_pool_instances'
 >
 > 我们能想到的最简单的一种索引办法就是让各个用户数据页中的记录**严格按照主键进行排序**,使得越接近双向链表头部的页中存储的记录具备越小的主键,越解决双向链表尾部的记录具备越大的主键.然后我们额外再维护一个页,这个页我们称为**目录页**,其以单向链表的方式(以一个页的基本信息为一个节点),按照对应页存储的最大主键的大小,按序存储着我们所有的用户数据页的物理地址以及对应用户数据页的主键的最大值.当我们需要查询数据时,就只需要首先查询该目录页,找到我们需要的记录所在的用户数据页的物理地址,然后访问该物理地址页,然后在该用户数据页中找到对应的记录即可完成我们对记录的操作.
 
-<img src="F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220712212923599.png" alt="image-20220712212923599" style="zoom:80%;" />
+<img src="https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-24?token=AOAPFCP4PP3Q26IFROF4XLTC57X54" alt="image-20220712212923599" style="zoom:80%;" />
 
 ### 主键索引进阶
 
 > 在使用中我们发现,我们的数据记录实在过多以至于用户数据页数量过多,单个目录页无法存储我们所有的用户数据页的信息,因此我们就演化形成如下的形式
 
 - **使用多个目录项**页
-  - <img src="F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220712213207457.png" alt="image-20220712213207457" style="zoom:80%;" />
+  - <img src="https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-25?token=AOAPFCJPDA3ZOFSAMHGA2HTC57X6Q" alt="image-20220712213207457" style="zoom:80%;" />
 - **进一步增加目录页的目录页**
-  - <img src="F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220712213311861.png" alt="image-20220712213311861" style="zoom:80%;" />
+  - <img src="https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-26?token=AOAPFCO7GKQJIQPFMHNHAZDC57X7E" alt="image-20220712213311861" style="zoom:80%;" />
 - **然后增加目录页的目录页的目录页,一直增加逐渐演化称如下结构**(==**也就是我们经常听说的`B+`树**==)
-  - <img src="F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220712213457991.png" alt="image-20220712213457991" style="zoom:50%;" />
+  - <img src="https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-27?token=AOAPFCP2POW2B4TQITSCVYTC57X7Y" alt="image-20220712213457991" style="zoom:50%;" />
 
 ### `B+`树应用于主键索引
 
@@ -1263,11 +1263,11 @@ SHOW VARIABLES LIKE 'innodb_buffer_pool_instances'
 
 - 哈希冲突(不同索引列会用相同的哈希码)会影响查询速度,此时需遍历索引中的指向记录存储地址的指针,**逐个记录进行比较**。    
 
-![img](https://ask.qcloudimg.com/http-save/yehe-7723205/4kmjg52voc.png?imageView2/2/w/1620)
+![img](https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-28?token=AOAPFCLCLNGWSU5GDW35DA3C57YAM)
 
 - 如果哈希冲突很多，一些索引维护操作的代价会很高。
 
-![img](https://ask.qcloudimg.com/http-save/yehe-7723205/k5q27l7fao.png?imageView2/2/w/1620)
+![img](https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-29?token=AOAPFCN3F6SOAPHRR4YNMHDC57YBA)
 
 - 如果从表中删除一行，需要遍历链表中的每一行，找到并删除对应行的引用，冲突越多，代价越大。
 
@@ -1377,7 +1377,7 @@ SHOW VARIABLES LIKE 'innodb_buffer_pool_instances'
 
 > **`MyISAM`采取的是基于`B+`树的非聚簇索引**
 
-<img src="F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220712233316893.png" alt="image-20220712233316893" style="zoom:130%;" />
+<img src="https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-30?token=AOAPFCLZEU32OTAE4RJXJ7DC57YBY" alt="image-20220712233316893" style="zoom:130%;" />
 
 ### `MyISAM`与`Innodb`在索引使用上的对比
 
@@ -1388,7 +1388,7 @@ SHOW VARIABLES LIKE 'innodb_buffer_pool_instances'
 - `MyISAM`的回表操作是十分快速的，**因为是拿着地址偏移量直接到文件中取数据**的，反观``InnoDB``是通过**获取主键之后再去聚簇索引**里找记录，虽然说也不慢，但还是比不上直接用地址去访问。
 - `InnoDB`要求表**必须有主键**(`MyISAM`可以没有)。如果**没有显式指定**，则`MySQL`系统会==**自动选择一个可以非空且唯一标识数据记录的列作为主键**==。如果**不存在**这种列，则`MySQL`自动为`InnoDB`表==**生成一个隐含字段作为主键，这个字段长度为6个字节，类型为长整型**。==
 
-​	![image-20220713000457848](F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220713000457848.png)
+​	![image-20220713000457848](https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-31?token=AOAPFCJYDBA77VQ7KRUWQL3C57YC2)
 
 ### 使用索引的代价
 
@@ -1409,7 +1409,7 @@ SHOW VARIABLES LIKE 'innodb_buffer_pool_instances'
 > - 左子节点的键的值应小于(大于)父节点的键的值
 > - 右子节点的键的值应大于(小于)父节点的键的值
 
-<img src="F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220713124603214.png" alt="image-20220713124603214" style="zoom:50%;" />
+<img src="https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-32?token=AOAPFCIEH3UZ7STEIYY5WLDC57YDW" alt="image-20220713124603214" style="zoom:50%;" />
 
 #### `AVL`树(平衡二叉树)
 
@@ -1419,7 +1419,7 @@ SHOW VARIABLES LIKE 'innodb_buffer_pool_instances'
 > - 平衡二叉树的左子树与右子树的高度差应该**小于等于1**
 > - 平衡二叉树是基于二叉树的,因此其也同时满足二叉树的特性
 
-<img src="F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220713125026175.png" alt="image-20220713125026175" style="zoom:67%;" />
+<img src="https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-33?token=AOAPFCJTVU6EFZGT7WBNCVDC57YEK" alt="image-20220713125026175" style="zoom:67%;" />
 
 #### `B`树
 
@@ -1435,9 +1435,9 @@ SHOW VARIABLES LIKE 'innodb_buffer_pool_instances'
 > - 叶子节点只保存有用户记录,而不再保存指向子节点的指针.并且叶子节点应具备`k3-1`个用户记录
 > - `k`的取值范围为``[ceil(M/2),M]**``**
 >
-> <img src="F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220713130220355.png" alt="image-20220713130220355" style="zoom: 80%;" />
+> <img src="https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-34?token=AOAPFCOI7GE245IZK3JZ53LC57YFA" alt="image-20220713130220355" style="zoom: 80%;" />
 >
-> <img src="F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220713130241424.png" alt="image-20220713130241424" style="zoom:80%;" />
+> <img src="https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-35?token=AOAPFCJT5HQJMIB5KCBXJNDC57YFQ" alt="image-20220713130241424" style="zoom:80%;" />
 
 - **`B`树的查询流程**(以上面的第一个图为例,查询主键值为**36**的记录)
   - 首先查询根结点,我们发现`36>17且36>35`,因此我们取得`P3`指针,并根据该指针得到下一个节点
@@ -1465,15 +1465,15 @@ SHOW VARIABLES LIKE 'innodb_buffer_pool_instances'
 > - 由于`B+`树的特性`1`,导致了我们的`B+`树的同一级别的页之间必须通过双向链表结构按照主键值大小为顺序有序地整合起来.
 >   - 如果不整合起来,我们要查主键值为`4`的节点,我们假设根据搜索规则找到了`页34`,但是很明显此时`页35`中也具备主键值为4的记录,因此我们需要将页按顺序连接起来,这样我们访问到`页34`的同时也可以通过双向链表访问到`页33,页35等`从而我们就可以遍历上下文,从而解决我们`B+`树特性``1``导致的问题
 
-- **`B+`树在最小主键值选取规则情况下的查询流程**<img src="F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220713132234953.png" alt="image-20220713132234953" style="zoom:75%;" />
+- **`B+`树在最小主键值选取规则情况下的查询流程**<img src="https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-36?token=AOAPFCMSHSSAT3HZO2QBDJLC57YGE" alt="image-20220713132234953" style="zoom:75%;" />
 
 - **`B+`树在最大主键值选取规则情况下的查询流程**
 
-  <img src="F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220713132936748.png" alt="image-20220713132936748" style="zoom:75%;" />
+  <img src="https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-37?token=AOAPFCM43FOOXMZJXAV4ODDC57YGW" alt="image-20220713132936748" style="zoom:75%;" />
 
 #### `R`树
 
-<img src="F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220713001907535.png" alt="image-20220713001907535" style="zoom:80%;" />
+<img src="https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-41%E3%80%81?token=AOAPFCOYWJRGQX7HOBZDPKTC57YLA" alt="image-20220713001907535" style="zoom:80%;" />
 
 ### 为什么使用`B+`树不使用二叉树?
 
@@ -1481,7 +1481,7 @@ SHOW VARIABLES LIKE 'innodb_buffer_pool_instances'
 
 ### 各种树的算法复杂度
 
-![image-20220712220223352](F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220712220223352.png)
+![image-20220712220223352](https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-40?token=AOAPFCIILUZSSGEPAMQO7VTC57YKG)
 
 ## `Innodb`存储引擎
 
@@ -1723,7 +1723,7 @@ SHOW VARIABLES LIKE 'innodb_buffer_pool_instances'
   - **只能用于`CHAR,VARCHAR,TEXT`等文本类型的字段**
   - 一般**用于数据量较大的表,数据量较小的表一般没有使用的意义**
   - 全文索引分为`自然语言全文索引`与`布尔全文索引`两种
-    - ![image-20220717173346444](F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220717173346444.png)
+    - ![image-20220717173346444](https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-42?token=AOAPFCJMB2XSDFANTP7QFQ3C57YNI)
 - **单列索引**
   - 一个索引只涉及单个字段
   - 一个表可以有多个单列索引
@@ -2093,7 +2093,7 @@ ALTER TABLE 表名 ALTER INDEX 索引名 [INVISIBLE|VISIBLE]
 >
 > **问题**:
 >
-> ​	<img src="F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220717234145869.png" alt="image-20220717234145869" style="zoom: 67%;" />
+> ​	<img src="https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-43?token=AOAPFCK4NPFSQF6QNDA2E6DC57YOY" alt="image-20220717234145869" style="zoom: 67%;" />
 
 - `经验10`:**在不影响正常使用情况下,尽量使用区分度高的字段创建索引**
 - `经验11`:**在非特殊情况下,创建联合索引时,尽量将区分度最高的字段放在第一位**
@@ -2102,7 +2102,7 @@ ALTER TABLE 表名 ALTER INDEX 索引名 [INVISIBLE|VISIBLE]
 
 #### 限制单表的索引数目
 
-> ![image-20220717235625992](F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220717235625992.png)
+> ![image-20220717235625992](https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-44?token=AOAPFCMREMHSTVPRCYNKCN3C57YPO)
 
 #### 明确七个不适合创建索引场景
 
@@ -2132,15 +2132,15 @@ ALTER TABLE 表名 ALTER INDEX 索引名 [INVISIBLE|VISIBLE]
 
 #### 数据库服务器的一般优化步骤
 
-<img src="F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220718103836807.png" alt="image-20220718103836807" style="zoom: 40%;" />
+<img src="https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-45?token=AOAPFCJGEXJWDZ6NAE3TE33C57YP6" alt="image-20220718103836807" style="zoom: 40%;" />
 
-<img src="F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220718103931131.png" alt="image-20220718103931131" style="zoom: 42%;" />
+<img src="https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-46?token=AOAPFCK4M2KKU2H4JX5IGGLC57YQU" alt="image-20220718103931131" style="zoom: 42%;" />
 
-<img src="F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220718104102011.png" alt="image-20220718104102011" style="zoom:40%;" />
+<img src="https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-47?token=AOAPFCPBHKWT7ULTTUJJWEDC57YRC" alt="image-20220718104102011" style="zoom:40%;" />
 
 #### 数据库优化的代价
 
-<img src="F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220718104156713.png" alt="image-20220718104156713" style="zoom:50%;" />
+<img src="https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-48?token=AOAPFCNEAYFYD3WZAYRK27LC57YRO" alt="image-20220718104156713" style="zoom:50%;" />
 
 ### 数据库性能参数的查看
 
@@ -2173,7 +2173,7 @@ ALTER TABLE 表名 ALTER INDEX 索引名 [INVISIBLE|VISIBLE]
 SHOW STATUS LIKE "last_query_cost"
 ```
 
-![image-20220718105958705](F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220718105958705.png)
+![image-20220718105958705](https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-49?token=AOAPFCOZXXCY762ILEBUDV3C57YSK)
 
 ### 合理利用慢查询日志
 
@@ -2248,7 +2248,7 @@ SHOW STATUS LIKE "last_query_cost"
   SHOW PROFILE [字段列表] FOR query <Query_ID>
   ```
 
-<img src="F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220718113201072.png" alt="image-20220718113201072" style="zoom:67%;" />
+<img src="https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-50?token=AOAPFCKKRZV6ONKUJKN43UTC57YTG" alt="image-20220718113201072" style="zoom:67%;" />
 
 ### ==**借助`EXPLAIN`查看我们查询语句使用的执行计划**==
 
@@ -2270,10 +2270,10 @@ SHOW STATUS LIKE "last_query_cost"
 | `type`          | 指明该`SELECT`查询对数据表进行访问的方式                     |
 | `possible_keys` | 指明对该表进行该`SELECT`查询可以利用到的索引,**(ke能有多个)** |
 | `key`           | 指明对该表进行该`SELECT`查询我们最终选取用于真正执行的索引**(只会有一个)** |
-| `key_len`       | ![image-20220718140207735](F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220718140207735.png)<br /><img src="F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220718140325799.png" alt="image-20220718140325799" style="zoom: 50%;" /> |
-| `ref`           | ![image-20220718140620704](F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220718140620704.png) |
-| `rows`          | <img src="F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220718140640082.png" alt="image-20220718140640082" style="zoom:67%;" /> |
-| `filtered`      | ![image-20220718140748699](F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220718140748699.png) |
+| `key_len`       | ![image-20220718140207735](https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL进阶-51?token=AOAPFCLCUD7SS5YLIWJAPT3C57YTW)<br /><img src="https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-52?token=AOAPFCMA6B7RH7SZLCBGZVLC57YUY" alt="image-20220718140325799" style="zoom: 50%;" /> |
+| `ref`           | ![image-20220718140620704](https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-53?token=AOAPFCNBMPY2GW644PULOMTC57YVO) |
+| `rows`          | <img src="https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-54?token=AOAPFCMID2VUXIVWJSRQPLTC57YWK" alt="image-20220718140640082" style="zoom:67%;" /> |
+| `filtered`      | ![image-20220718140748699](https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-55?token=AOAPFCLFB7T3FL6AVKKP5PLC57YW6) |
 | `Extra`         | 一些额外的信息,`MySQL`默认的额外信息字段有几十个             |
 
 #### `select_type`
@@ -2296,55 +2296,55 @@ SHOW STATUS LIKE "last_query_cost"
 
 - `system`
   - 在表中只有一条记录,并且存储引擎的统计数据十分准确时
-  - <img src="F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220718135351869.png" alt="image-20220718135351869" style="zoom:50%;" />
+  - <img src="https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-56?token=AOAPFCNZK3XWVN4SHQXWJ33C57YXG" alt="image-20220718135351869" style="zoom:50%;" />
 - `const`
-  - ![image-20220718135310246](F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220718135310246.png)
+  - ![image-20220718135310246](https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-57?token=AOAPFCLIMFIGBFPK5W3JXC3C57YX2)
 - `eq_ref`
-  - ![image-20220718135253779](F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220718135253779.png)
+  - ![image-20220718135253779](https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-58?token=AOAPFCMWIXJNJGH2DGXLCV3C57YYI)
 - `ref`
-  - ![image-20220718135426494](F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220718135426494.png)
+  - ![image-20220718135426494](https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-59?token=AOAPFCLQNFL55ZWZCZLRJY3C57YY6)
 - `fulltext`
   - 
 - `ref_or_null`
-  - ![image-20220718135451139](F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220718135451139.png)
+  - ![image-20220718135451139](https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-60?token=AOAPFCP327P4HW7N72RYNLDC57YZK)
 - `index_merge`
   - 
 - `unique_subquery`
-  - ![image-20220718135543866](F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220718135543866.png)
+  - ![image-20220718135543866](https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-61?token=AOAPFCKDFPKBCXRHQSDX3OLC57Y2A)
 - `index_subquery`
   - 
 - `range`
-  - ![image-20220718135641636](F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220718135641636.png)
+  - ![image-20220718135641636](https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-62?token=AOAPFCKS26SOSUHN57OGDCTC57Y2O)
 - `index`
-  - ![image-20220718135715793](F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220718135715793.png)
+  - ![image-20220718135715793](https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-64?token=AOAPFCMB2LKC7TASNZ3Y7W3C57Y32)
 - `ALL`
   - 对数据表的每一条记录进行直接遍历
-- ![image-20220718135827012](F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220718135827012.png)
+- ![image-20220718135827012](https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-63?token=AOAPFCOAUGTF2H5SWOHIY4DC57Y3C)
 
 #### `Extra`
 
 - `No tables used`:查询语句没有定义`FROM`子句
 - `Impossible WHERE `:我们的`WHERE`子句的条件是永假的
 - `Using WHERE`:
-  - ![image-20220718170222163](F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220718170222163.png)
+  - ![image-20220718170222163](https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-65?token=AOAPFCJ23UYRZ7WNVIKAHJLC57Y4O)
 - `No Matching min/max row`
-  - ![image-20220718170505744](F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220718170505744.png)
+  - ![image-20220718170505744](https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-66?token=AOAPFCM4X3TAGOD3XQR3UZ3C57Y5C)
 - `Using Index`
-  - ![image-20220718170532210](F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220718170532210.png)
+  - ![image-20220718170532210](https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-67?token=AOAPFCLBLUDRRPRC7OGRJTTC57Y5Q)
 - `Using Index condition`
-  - ![image-20220718170648735](F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220718170648735.png)
+  - ![image-20220718170648735](https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-68?token=AOAPFCIMWDEJ5QLASOBHZWDC57Y6A)
 - `Using join buffer`
-  - ![image-20220718170847773](F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220718170847773.png)
+  - ![image-20220718170847773](https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-69?token=AOAPFCKGEMMC34OTE2S4RRDC57Y6U)
 - `Not exists`
-  - ![image-20220718170936576](F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220718170936576.png)
+  - ![image-20220718170936576](https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-70?token=AOAPFCMH57R3LXIBNUZCSYLC57Y7I)
 - `Using union`
-  - ![image-20220718171048128](F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220718171048128.png)
+  - ![image-20220718171048128](https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-71?token=AOAPFCN2PMMITVATTGUOPHLC57Y7Y)
 - `Zero limit`
-  - ![image-20220718171059821](F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220718171059821.png)
+  - ![image-20220718171059821](https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-72?token=AOAPFCNMFCDI334KOJKENJ3C57ZAK)
 - `Using filesort`
-  - ![image-20220718171146693](F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220718171146693.png)
+  - ![image-20220718171146693](https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-73?token=AOAPFCPKOSZTS7FNHZTCTITC57ZBA)
 - `Using temporary`
-  - ![image-20220718171254121](F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220718171254121.png)
+  - ![image-20220718171254121](https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-74?token=AOAPFCI5N4OSC2KHQRCCCU3C57ZBQ)
 
 ### `EXPLAIN`拓展
 
@@ -2360,7 +2360,7 @@ SHOW STATUS LIKE "last_query_cost"
 
   
 
-- ![image-20220718171638694](F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220718171638694.png)
+- ![image-20220718171638694](https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-75?token=AOAPFCPOBD5PH5IXJ2TIWQLC57ZCG)
 
 ##### `JSON`格式
 
@@ -2372,7 +2372,7 @@ SHOW STATUS LIKE "last_query_cost"
   EXPLAIN FORMAT = JSON 语句
   ```
 
-- ![image-20220718172003683](F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220718172003683.png)
+- ![image-20220718172003683](https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-76?token=AOAPFCI2GLNBMF6WH33FCJTC57ZC2)
 
 ##### `TREE`格式
 
@@ -2388,13 +2388,13 @@ SHOW STATUS LIKE "last_query_cost"
 
 > 可视化输出，可以通过``MySQL Workbench`可视化查看`MySQL`的执行计划。
 
-- ![image-20220718172556313](F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220718172556313.png)
+- ![image-20220718172556313](https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-77?token=AOAPFCJCPYDVQDGSQ27VHRDC57ZDM)
 
 #### `EXPLAIN`与`SHOW WARNINGS`组合
 
 > 当我们`EXPLAIN`一条语句后,可以通过`SHOW WARNINGS`获取到该语句在**经过解析器优化器优化后的真正用于执行的语句**
 
-![image-20220718172857250](F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220718172857250.png)
+![image-20220718172857250](https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-78?token=AOAPFCMQPOBEN5NUEY23HVTC57ZEE)
 
 ### `TRACE`优化器执行计划制定的决策跟踪工具的使用
 
@@ -2413,9 +2413,9 @@ select * from information_schema.optimizer_trace\G
 
 ### `MySQL`监控分析视图`sys schema`
 
-> ![image-20220718174023460](F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220718174023460.png)
+> ![image-20220718174023460](https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-79?token=AOAPFCJEQMZGGQ5KXCWWCN3C57ZE4)
 
-<img src="F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220718174048536.png" alt="image-20220718174048536" style="zoom:50%;" />
+<img src="https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-80?token=AOAPFCPS65KO3JV3LCQI6FTC57ZFM" alt="image-20220718174048536" style="zoom:50%;" />
 
 **索引情况**
 
@@ -2472,13 +2472,13 @@ select * from sys.innodb_lock_waits;
 
 ### 前言
 
-<img src="F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220718174550128.png" alt="image-20220718174550128" style="zoom: 50%;" />
+<img src="https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-81?token=AOAPFCOEIDKJFKO7ZKZLCLDC57ZGA" alt="image-20220718174550128" style="zoom: 50%;" />
 
 ### 索引失效的``11``种情况
 
 #####   `情况1`:全值匹配我最爱
 
-![image-20220718195623345](F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220718195623345.png)
+![image-20220718195623345](https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-82?token=AOAPFCOMBERDHPXSW5RPCLLC57ZGM)
 
 #####  `情况2`:违反最左前缀原则
 
@@ -2489,7 +2489,7 @@ select * from sys.innodb_lock_waits;
 > - **注意**:**虽然我们的优化器可能会帮我们优化,但是我们能够自己解决的问题应该尽量不要依靠优化器,那样不稳定**
 >
 
-![image-20220718195845140](F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220718195845140.png)
+![image-20220718195845140](https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-83?token=AOAPFCLTRUFERSMIXN24IP3C57ZHE)
 
 #####   `情况3`:尽量保证按照主键逐步增大的插入顺序对记录进行插入
 
@@ -2504,9 +2504,9 @@ select * from sys.innodb_lock_waits;
 >
 > - `SELECT * FROM Students WHERE ((age/10)+5) =15;`
 
-![image_73](F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image_73.png)
+![image_73](https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-84?token=AOAPFCNIPMJKTIE5YQU2NTLC57ZHS)
 
-![image_75](F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image_75.png)
+![image_75](https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-85?token=AOAPFCJXR73OHOUNU7JXCM3C57ZIG)
 
 #####  `情况5`:联合索引中涉及到范围条件的字段的右边的字段在不使用索引下推的情况下无法使用索引
 
@@ -2530,7 +2530,7 @@ select * from sys.innodb_lock_waits;
 > - 而当我们改变联合索引中的字段的顺序后最左字段与次左字段就可以使用到索引了
 > - **究其一切,这些都是`B+`树构建联合索引时遵守的规则带来的问题,且只要使用`B+`树索引就无法解决**
 
-![image-20220718203510393](F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220718203510393.png)
+![image-20220718203510393](https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-86?token=AOAPFCPWW5PYB54LK7XDTKLC57ZIY)
 
 #####  `情况6`:不等于(!= 或者<>)索引失效
 
@@ -2574,7 +2574,7 @@ select * from sys.innodb_lock_waits;
 
 > **前提**:以`a,b,c`的顺序建立了联合索引
 
-![image-20220719135446674](F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220719135446674.png)
+![image-20220719135446674](https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-87?token=AOAPFCOE6YUOKGWCXYBCI3DC57ZJU)
 
 ### ==**多表查询优化**==
 
@@ -2587,7 +2587,7 @@ select * from sys.innodb_lock_waits;
 
 #### 经验总结
 
-![image-20220719155415999](F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220719155415999.png)
+![image-20220719155415999](https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-88?token=AOAPFCM6NRPD3HOMQAACGSTC57ZKM)
 
 #### 驱动表与被驱动表介绍
 
@@ -2631,11 +2631,11 @@ select * from sys.innodb_lock_waits;
 
 > **与我们前面讲的无索引情况下的`JOIN`工作原理相同**
 
-![image-20220719153407749](F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220719153407749.png)
+![image-20220719153407749](https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-89?token=AOAPFCKZVXSMTM2RHL5A2W3C57ZLA)
 
 ##### 开销统计
 
-![image-20220719152737858](F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220719152737858.png)
+![image-20220719152737858](https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-90?token=AOAPFCKUTOPC3MLBVKEQXSLC57ZLW)
 
 ####  `Index Nested-Loop Join`(索引嵌套循环连接)
 
@@ -2647,7 +2647,7 @@ select * from sys.innodb_lock_waits;
 
 ##### 开销统计
 
-![image-20220719152813369](F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220719152813369.png)
+![image-20220719152813369](https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-91?token=AOAPFCIB6GTMZB5IDEFXG5LC57ZMG)
 
 #### `Block Nested-Loop Join`(块嵌套循环连接)
 
@@ -2666,15 +2666,15 @@ select * from sys.innodb_lock_waits;
 >
 > - ``Block Nested-Loop Join``不再是逐条获取驱动表的数据，而是一块一块的获取，引入了`Join Buffer缓冲区`，将驱动表``Join``相关的部分数据列的我们要查询的字段载入`Join Buffer`(载入的记录数量受``Join Buffer大小``的限制)缓存到``Join Buffer``中，然后**全表扫描被驱动表**，**被驱动表的每一条记录一次性和``Join Buffer`中的所有驱动表记录进行匹配（内存中操作**），将简单嵌套循环中的多次比较合并成一次，**降低了被驱动表的访问频率**。
 
-![image-20220719153604165](F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220719153604165.png)
+![image-20220719153604165](https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-92?token=AOAPFCM77CW25UFY5AQYC3LC57ZNG)
 
 ##### 开销统计
 
-![image-20220719153622155](F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220719153622155.png)
+![image-20220719153622155](https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-93?token=AOAPFCL77IC5FGOMKP5UDEDC57ZNU)
 
 ##### 开启关闭以及`Join Buffer`大小设置
 
-![image-20220719155159013](F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220719155159013.png)
+![image-20220719155159013](https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-94?token=AOAPFCK2TZ2YKTT3V6AALCLC57ZOS)
 
 #### `Hash Join`
 
@@ -2687,13 +2687,13 @@ select * from sys.innodb_lock_waits;
 
 ##### 基本原理
 
-> ![image-20220719155750392](F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220719155750392.png)
+> ![image-20220719155750392](https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-95?token=AOAPFCMXPB5JBWPZOL65LPLC57ZPI)
 
 ##### 开销统计
 
 ##### 与`Nested-Loop Join`的对比
 
-![image-20220719155908766](F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220719155908766.png)
+![image-20220719155908766](https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-96?token=AOAPFCMYOBJ54GYCAGUGQODC57ZQE)
 
 ### 子查询优化
 
@@ -2718,7 +2718,7 @@ select * from sys.innodb_lock_waits;
 
 > **相比于子查询快了一倍多**
 
-![image-20220719160447667](F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220719160447667.png)
+![image-20220719160447667](https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-97?token=AOAPFCKUUUJIYL2M2ZFANYLC57ZQS)
 
 #### 不要使用`NOT IN`与`NOT EXISTS`
 
@@ -2749,7 +2749,7 @@ select * from sys.innodb_lock_waits;
 > - 数据表的数据量很大
 > - 辅助排序的索引字段不是主键
 >
-> ![image-20220719171915036](F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220719171915036.png)
+> ![image-20220719171915036](https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-98?token=AOAPFCP7R3OR43XXUPPVEUDC57ZRE)
 
 - **查询的字段并没有全部出现在数据表,需要回表时**
 
@@ -2757,7 +2757,7 @@ select * from sys.innodb_lock_waits;
 
 ##### `ORDER BY`时用于排序的字段的顺序使用错误导致使用不上索引
 
-> ![image-20220719172033966](F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220719172033966.png)
+> ![image-20220719172033966](https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-99?token=AOAPFCLNU7UO7DS3LYC5CQ3C57ZRU)
 
 - **原因**
   - **第一,二个失效原因是其不满足最左前缀规则**
@@ -2765,45 +2765,45 @@ select * from sys.innodb_lock_waits;
 
 ##### `ORDER BY`涉及的字段的联合索引按照`ASC|DESC`排序,而我们`ORDER BY`中却是使用`DESC|ASC`
 
-> ![image-20220719183956337](F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220719183956337.png)
+> ![image-20220719183956337](https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-100?token=AOAPFCN6OTOKHCXNZOZ37E3C57ZSE)
 
 #####   无过滤不索引
 
-![image-20220719184236462](F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220719184236462.png)
+![image-20220719184236462](https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-101?token=AOAPFCNR4GHOR3GJHO2VSMLC57ZSW)
 
 #### **总结**
 
-![image-20220719184353983](F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220719184353983.png)
+![image-20220719184353983](https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-102?token=AOAPFCIYHXIAOBSTJNIK2PLC57ZTI)
 
 #### **拓展**
 
-![image-20220719191214903](F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220719191214903.png)
+![image-20220719191214903](https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-103?token=AOAPFCIDHXJ3FQRZ75PGXHTC57ZT4)
 
 ##### 问题
 
 - **我们发现方案2本来还可以继续做索引条件下推,但是`MySQL`直接跳出来不对`NAME`继续索引下推,而是直接出来做`FileSort`,其原因在于经过前面的过滤后剩下的要排序的字段很少了,排序很快,索引优化器制定了这样的执行计划**
 
-![image-20220719184531262](F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220719184531262.png)
+![image-20220719184531262](https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-104?token=AOAPFCM7W7RPAZNXSOSYGNLC57ZUM)
 
 ### `FileSort`算法介绍
 
 #### **双路排序**
 
-![image-20220719184738451](F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220719184738451.png)
+![image-20220719184738451](https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-105?token=AOAPFCL2QO3OBT74ER5ES53C57ZVG)
 
 #### **单路排序**
 
-![image-20220719184747212](F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220719184747212.png)
+![image-20220719184747212](https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-106?token=AOAPFCJQI7BCLP2HBMOOCM3C57ZVY)
 
 #### **结论与问题讨论**
 
-![image-20220719184812919](F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220719184812919.png)
+![image-20220719184812919](https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-107?token=AOAPFCMPQCWC2G6MZ2S3WRDC57ZXE)
 
 #### **优化方法**
 
-![image-20220719185002583](F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220719185002583.png)
+![image-20220719185002583](https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-108?token=AOAPFCOOZNJBEPY6SI5ZBJDC57ZYK)
 
-![image-20220719185017203](F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220719185017203.png)
+![image-20220719185017203](https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-109?token=AOAPFCKCEFV5PLGX6MW75RLC57ZZC)
 
 ### `GROUP BY`分组优化
 
@@ -2818,9 +2818,9 @@ select * from sys.innodb_lock_waits;
 
 ### `LIMIT`分页查询优化
 
-![image-20220719191930891](F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220719191930891.png)
+![image-20220719191930891](https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-110?token=AOAPFCKZBXMMQSZZQCFUVI3C57ZZY)
 
-![image-20220719191940950](F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220719191940950.png)
+![image-20220719191940950](https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-111?token=AOAPFCOQ3WCHCOX6P7KWPL3C57Z2G)
 
 ### 有效利用覆盖索引
 
@@ -2842,15 +2842,15 @@ select * from sys.innodb_lock_waits;
 
 #### 索引下推`ICP`的特性
 
-![image-20220719130634915](F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220719130634915.png)
+![image-20220719130634915](https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-112?token=AOAPFCN5KMPTWNVYRV675LDC57Z3A)
 
 - **注意**:这里提到的`WHERE`条件可以仅使用索引中的列进行筛选,指的是由于我们的联合索引文件中会保存各个记录的我们用于建立联合索引的字段的具体的值,因此在索引文件中这些字段的值就会存在,而不用回表来获取
 
 #### 可以利用索引条件下推`ICP`的例子
 
-- <img src="F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220719132834547.png" alt="image-20220719132834547" style="zoom:67%;" />
+- <img src="https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-113?token=AOAPFCKWJJTLASP55UI543DC57Z3O" alt="image-20220719132834547" style="zoom:67%;" />
 
-- <img src="F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220719132811140.png" alt="image-20220719132811140" style="zoom: 67%;" />
+- <img src="https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-114?token=AOAPFCMWZYC7VXPCED7DBPDC57Z4A" alt="image-20220719132811140" style="zoom: 67%;" />
 
 #### 开启与关闭索引条件下推`ICP`
 
@@ -2872,7 +2872,7 @@ SET optimizer_switch = "index_condition_pushdown=on"
 
 #### 使用索引条件下推的前提条件
 
-<img src="F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220719133757984.png" alt="image-20220719133757984" style="zoom: 67%;" />
+<img src="https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-115?token=AOAPFCNATOG3L6BDPYSC7QLC57Z4Q" alt="image-20220719133757984" style="zoom: 67%;" />
 
 ### `SQL`调优拓展
 
@@ -2928,7 +2928,7 @@ SET optimizer_switch = "index_condition_pushdown=on"
 
 > **不合适**
 
-<img src="F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220719192617279.png" alt="image-20220719192617279" style="zoom: 65%;" />
+<img src="https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-116?token=AOAPFCMT7B62ZZP5E54UWADC57Z5M" alt="image-20220719192617279" style="zoom: 65%;" />
 
 ### 业务字段做主键
 
@@ -2940,29 +2940,29 @@ SET optimizer_switch = "index_condition_pushdown=on"
 
 #### 会员电话号码或身份证号做主键
 
-> ![image-20220719193016331](F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220719193016331.png)
+> ![image-20220719193016331](https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-117?token=AOAPFCMQFZJ2X76JZUXWGJTC57Z56)
 
 ### 淘宝的主键设计
 
-![image-20220719193137942](F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220719193137942.png)
+![image-20220719193137942](https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-118?token=AOAPFCNX4VOZVNU46EXXIQTC57Z6O)
 
 ### **主键设计方法论**
 
-![image-20220719193320591](F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220719193320591.png)
+![image-20220719193320591](https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-120?token=AOAPFCLS36WTBTYLCNV7J7DC57Z7E)
 
-![image-20220719193427933](F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220719193427933.png)
+![image-20220719193427933](https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-121?token=AOAPFCJAXZSYWLP33RVNAXTC572AA)
 
-![image-20220719193620376](F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220719193620376.png)
+![image-20220719193620376](https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-122?token=AOAPFCPIOOVLSJKVNL2OZJDC572AS)
 
-![image-20220719193821108](F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220719193821108.png)
+![image-20220719193821108](https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-123?token=AOAPFCJZ7MJGKJR5ENQFSLTC572BE)
 
 ## `MySQL`数据库设计规范
 
 ### 为什么要好好设计数据库?
 
-![image-20220719194245343](F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220719194245343.png)
+![image-20220719194245343](https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-124?token=AOAPFCIDZPYXLHXTKUKEC3TC572BU)
 
-![image-20220719194256001](F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220719194256001.png)
+![image-20220719194256001](https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-125?token=AOAPFCLS67D4VXIFC53BMKTC572CA)
 
 ### 数据库设计范式
 
@@ -2972,7 +2972,7 @@ SET optimizer_switch = "index_condition_pushdown=on"
 >
 > **注意**:一般开发中最多遵守到`3NF-BCNF`并且有时为了保证效率还会连`3NF`都做不到
 
-<img src="F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220719194719426.png" alt="image-20220719194719426" style="zoom: 67%;" />
+<img src="https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-126?token=AOAPFCMZKCUSPKSNNRLNQUTC572CQ" alt="image-20220719194719426" style="zoom: 67%;" />
 
 #### 前置知识
 
@@ -2991,41 +2991,41 @@ SET optimizer_switch = "index_condition_pushdown=on"
 
 ##### 例1
 
-<img src="F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220719195355200.png" alt="image-20220719195355200" style="zoom: 60%;" />
+<img src="https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-127?token=AOAPFCMUQY3CDPLLU3WIIHTC572DC" alt="image-20220719195355200" style="zoom: 60%;" />
 
 ##### 例2
 
-<img src="F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220719195448910.png" alt="image-20220719195448910" style="zoom: 50%;" />
+<img src="https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-128?token=AOAPFCMZOIXNOF4Y2GSKEPTC572DY" alt="image-20220719195448910" style="zoom: 50%;" />
 
 ##### 例3
 
-<img src="F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220719195525065.png" alt="image-20220719195525065" style="zoom: 50%;" />
+<img src="https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-130?token=AOAPFCLPB64TCZHQ2M23ON3C572EK" alt="image-20220719195525065" style="zoom: 50%;" />
 
 #### 第二范式`2NF`
 
-> ![image-20220719200232803](F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220719200232803.png)
+> ![image-20220719200232803](https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-131?token=AOAPFCNP27SAE5MP4L5OIXDC572E4)
 
-<img src="F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220719200013370.png" alt="image-20220719200013370" style="zoom:50%;" />
+<img src="https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-132?token=AOAPFCPNBAHOQVRAD2BTO4LC572FM" alt="image-20220719200013370" style="zoom:50%;" />
 
-<img src="F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220719200045059.png" alt="image-20220719200045059" style="zoom:50%;" />
+<img src="https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-133?token=AOAPFCLQBGC6XXJFQJWGIXLC572GC" alt="image-20220719200045059" style="zoom:50%;" />
 
-<img src="F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220719200204625.png" alt="image-20220719200204625" style="zoom:50%;" />
+<img src="https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-134?token=AOAPFCJQF6DVDBNKVAKHZZTC572GQ" alt="image-20220719200204625" style="zoom:50%;" />
 
 #### 第三范式`3NF`
 
-> ![image-20220719200311340](F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220719200311340.png)
+> ![image-20220719200311340](https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-135?token=AOAPFCJ6E6PBUMUUTO3CRPTC572HI)
 
-<img src="F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220719200348822.png" alt="image-20220719200348822" style="zoom: 60%;" />
+<img src="https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-137?token=AOAPFCLTPGVIFFQIYWSRC5LC572II" alt="image-20220719200348822" style="zoom: 60%;" />
 
-<img src="F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220719200416490.png" alt="image-20220719200416490" style="zoom:60%;" />
+<img src="https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/image-20220719200416490.png?token=AOAPFCJ4CH7XVUGTTO5XEETC572HY" alt="image-20220719200416490" style="zoom:60%;" />
 
-<img src="F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220719200442944.png" alt="image-20220719200442944" style="zoom:60%;" />
+<img src="https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-138?token=AOAPFCIVYOUPK3TKW2Y5ZJTC572JQ" alt="image-20220719200442944" style="zoom:60%;" />
 
-<img src="F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220719200457823.png" alt="image-20220719200457823" style="zoom:60%;" />
+<img src="https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-139?token=AOAPFCLYDBFYJEMJEYCUSXTC572J4" alt="image-20220719200457823" style="zoom:60%;" />
 
-<img src="F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220719200508983.png" alt="image-20220719200508983" style="zoom:60%;" />
+<img src="https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-140?token=AOAPFCKXS4DVHJ5MHIXPYR3C572KM" alt="image-20220719200508983" style="zoom:60%;" />
 
-<img src="F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220719200553936.png" alt="image-20220719200553936" style="zoom:60%;" />
+<img src="https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-141?token=AOAPFCJQ3YUDZBA3ELA6ONDC572LA" alt="image-20220719200553936" style="zoom:60%;" />
 
 #### 巴斯科德范式`BCNF`
 
@@ -3035,15 +3035,15 @@ SET optimizer_switch = "index_condition_pushdown=on"
 
 #### 第四范式`4NF`
 
-> <img src="F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220719202320067.png" alt="image-20220719202320067" style="zoom:60%;" />
+> <img src="https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-142?token=AOAPFCL45D5LI6ILTLDKHU3C572LQ" alt="image-20220719202320067" style="zoom:60%;" />
 
 #### 第五范式`5NF`
 
-<img src="F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220719202345225.png" alt="image-20220719202345225" style="zoom:60%;" />
+<img src="https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-143?token=AOAPFCNMMX343FXHNXA6XPLC572ME" alt="image-20220719202345225" style="zoom:60%;" />
 
 #### **范式的优缺点**
 
-<img src="F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220719200632496.png" alt="image-20220719200632496" style="zoom: 60%;" />
+<img src="https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-1474?token=AOAPFCIB2ATWAKQISMTEUPLC572MS" alt="image-20220719200632496" style="zoom: 60%;" />
 
 #### 反范式化
 
@@ -3096,7 +3096,7 @@ SET optimizer_switch = "index_condition_pushdown=on"
 
 > **注意**:这个原则**并不是绝对的**，有时候我们需要**牺牲数据的冗余度来换取数据处理的效率**。
 
-<img src="F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220719202610464.png" alt="image-20220719202610464" style="zoom:60%;" />
+<img src="https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-145?token=AOAPFCOHPCGZPW2YIAU72M3C572NO" alt="image-20220719202610464" style="zoom:60%;" />
 
 ## `MySQL`数据库编写建议
 
@@ -3374,7 +3374,7 @@ SET [GLOBAL|SESSION] TRANSACTION ISOLATION LEVEL 隔离级别;
 >
 > - `Redo Log`会详细记录下我们对数据表进行的所有修改操作,因此当我们的数据表修改发生了丢失时,就可以查找我们的`Redo Log`来找回这些丢失的修改
 >
-> <img src="F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220730165149076.png" alt="image-20220730165149076" style="zoom:58%;" />
+> <img src="https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-146?token=AOAPFCJKGTOIWZGGKXQ64BLC572OK" alt="image-20220730165149076" style="zoom:58%;" />
 
 #### `Redo Log`的优点与特性
 
@@ -3397,7 +3397,7 @@ SET [GLOBAL|SESSION] TRANSACTION ISOLATION LEVEL 隔离级别;
 
 #### `Redo Log`的流程
 
-<img src="F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220730165304980.png" alt="image-20220730165304980" style="zoom:55%;" />
+<img src="https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-147?token=AOAPFCPPRKRAAIZOUBDCS2DC572PE" alt="image-20220730165304980" style="zoom:55%;" />
 
 - :one:在`Redo Log Buffer`中生成一条`Redo Log`记录,记录下我们修改的数据以及修改的目标
 
@@ -3412,7 +3412,7 @@ SET [GLOBAL|SESSION] TRANSACTION ISOLATION LEVEL 隔离级别;
 
 > **我们可以通过`innodb_flush_log_at_trx_commit`来指定我们的`innodb`存储引擎的`Redo Log`重做日志来进行刷盘策略控制**
 >
-> <img src="F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220730165350027.png" alt="image-20220730165350027" style="zoom:58%;" />
+> <img src="https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-148?token=AOAPFCONJ52IBUIWIIUNBMTC572PS" alt="image-20220730165350027" style="zoom:58%;" />
 
 - **`0`**
   - 当取值为该值时,我们的`Redo Log Buffer`不再会在每一次`COMMIT`指定被调用时刷入磁盘上的`Redo Log File`.而是由我们的`MySQL`主服务进程来控制刷盘时间
@@ -3427,22 +3427,22 @@ SET [GLOBAL|SESSION] TRANSACTION ISOLATION LEVEL 隔离级别;
 
 ##### **`Mini-Transaction`**
 
-> <img src="F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220730165712314.png" alt="image-20220730165712314" style="zoom:50%;" />
+> <img src="https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-149?token=AOAPFCMLZ2TOFHP6WIWTIETC572QE" alt="image-20220730165712314" style="zoom:50%;" />
 
 - **简称`mtr`每一个`mtr`记录了对于某一数据表的数据的一组修改操作**
 
 ##### **`Redo Log`写入`Redo Log Buffer`**
 
-- ![image-20220730165924568](F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220730165924568.png)
+- ![image-20220730165924568](https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-150?token=AOAPFCIGH2DIANV3VBDD42LC572Q4)
 
 ##### **事务并行时的`Redo Log`的`Redo Log Buffer`写入**
 
-- ![image-20220730170113990](F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220730170113990.png)
+- ![image-20220730170113990](https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-151?token=AOAPFCN47EGSV3ZXI7M2XVDC572RS)
 
 ##### **`Redo Log Buffer`中的`Redo Log Block`的结构分析**
 
-- ![image-20220730170250175](F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220730170250175.png)
-- ![image-20220730170301254](F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220730170301254.png)
+- ![image-20220730170250175](https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-152?token=AOAPFCMWHFZFX5XDOWVOLELC572SC)
+- ![image-20220730170301254](https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-153?token=AOAPFCLMJGMYHNA7G477TCDC572SW)
 
 ****
 
@@ -3462,7 +3462,7 @@ SET [GLOBAL|SESSION] TRANSACTION ISOLATION LEVEL 隔离级别;
 
 > - 我们应该清楚,我们的`Redo Log File`并不仅仅只是由一个文件组成的,而是由多个子日志文件组成.
 >
-> <img src="F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220730175346748.png" alt="image-20220730175346748" style="zoom:50%;" />
+> <img src="https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-154?token=AOAPFCJKA62SE277WBYSCH3C572TG" alt="image-20220730175346748" style="zoom:50%;" />
 >
 > **问题**
 >
@@ -3470,7 +3470,7 @@ SET [GLOBAL|SESSION] TRANSACTION ISOLATION LEVEL 隔离级别;
 
 ##### `Write Position`与`CheckPoint`
 
-<img src="F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220730174625536.png" alt="image-20220730174625536" style="zoom:50%;" /><img src="F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220730174649692.png" alt="image-20220730174649692" style="zoom:50%;" />
+<img src="https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-155?token=AOAPFCMICCLZQCJLAXP6RYLC572T2" alt="image-20220730174625536" style="zoom:50%;" /><img src="https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/image-20220730174649692.png?token=AOAPFCIJU57ILHJMXXSW6PDC572U2" alt="image-20220730174649692" style="zoom:50%;" />
 
 - :one:**`Write Position`与``CheckPoint``分别是一个指针,其指向我们的`Redo Log File`的某个位置的物理存储位置.**
 - :two:**`CheckPoint`指向的位置之前的数据修改记录`Redo Log`日志都是已经被成功刷入磁盘,持久化了的,而之后的记录则是还没有被刷入我们的磁盘的数据修改记录的`Redo Log`日志**
@@ -3534,7 +3534,7 @@ SET [GLOBAL|SESSION] TRANSACTION ISOLATION LEVEL 隔离级别;
 
 #### 没有使用这两个日志时
 
-<img src="F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220730191730286.png" alt="image-20220730191730286" style="zoom:60%;" />
+<img src="https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-160?token=AOAPFCKHSO6TH444M7OUTDLC572X2" alt="image-20220730191730286" style="zoom:60%;" />
 
 - 首先我们客户端进程发起数据修改相关的操作
 - 然后我们需要修改的记录读取到我们的`Buffer Pool`中,并对其进行修改
@@ -3547,7 +3547,7 @@ SET [GLOBAL|SESSION] TRANSACTION ISOLATION LEVEL 隔离级别;
 
 #### 使用了这两个日志时
 
-![image-20220730191756243](F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220730191756243.png)
+![image-20220730191756243](https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-161?token=AOAPFCJMCOECP4UY2MNEM6DC572YK)
 
 - 首先我们的`MySQL`客户端向`MySQL`服务器发起对于数据进行修改的`SQL`语句申请
 - 然后我们的`MySQL`服务器就会将我们需要修改的数据记录中没有事先保存在我们的`Buffer Pool`中的数据记录读取到我们的`Buffer Pool`中
@@ -3608,7 +3608,7 @@ SET [GLOBAL|SESSION] TRANSACTION ISOLATION LEVEL 隔离级别;
 
 ### `MySQL`常见的**17**种锁
 
-<img src="F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\第15章_锁_Page4_Image1.jpg" alt="第15章_锁_Page4_Image1" style="zoom: 67%;" />
+<img src="https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-162?token=AOAPFCMGYUHNF5HCQ5VAMB3C572ZE" alt="第15章_锁_Page4_Image1" style="zoom: 67%;" />
 
 #### 读写锁
 
@@ -3728,7 +3728,7 @@ SET [GLOBAL|SESSION] TRANSACTION ISOLATION LEVEL 隔离级别;
 - **记录级`S锁,读锁`**
 - **记录级`X锁,写锁`**
 
-<img src="F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220731140455917.png" alt="image-20220731140455917" style="zoom:67%;" />
+<img src="https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-163?token=AOAPFCOLKNDF3VZFKU24Z43C5722E" alt="image-20220731140455917" style="zoom:67%;" />
 
 ##### :two:间隙锁
 
@@ -3740,7 +3740,7 @@ SET [GLOBAL|SESSION] TRANSACTION ISOLATION LEVEL 隔离级别;
 >
 > **间隙锁的作用为使得当前数据表中的某两条记录之间在锁定期间不允许被添加新的记录**
 
-<img src="F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220731145445967.png" alt="image-20220731145445967" style="zoom: 67%;" />
+<img src="https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-164?token=AOAPFCJ3OTTGDMKHHPR2YMDC5722W" alt="image-20220731145445967" style="zoom: 67%;" />
 
 图中`id`值为**`8`**的记录加了`gap`锁，**意味着不允许别的事务在`id`值为`8`的记录前边的间隙插入新记录** ，其实就是
 `id`列的值$(3, 8)$这个区间的**新记录是不允许立即插入**的。比如，有另外一个事务再想插入一条`id`值为`4`的新记录，它定位到该条新记录的下一条记录的`id`值为`8`，而这条记录上又有一个`gap`锁，所以就会阻塞插入操作，直到有这个`gap`锁的事务提交了之后，`id`列的值在区间$(3, 8)$中的新记录才可以被插入。  
@@ -3865,7 +3865,7 @@ SET [GLOBAL|SESSION] TRANSACTION ISOLATION LEVEL 隔离级别;
 
 ### 锁的内存结构剖析
 
-<img src="F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220731164743212.png" alt="image-20220731164743212" style="zoom: 50%;" />
+<img src="https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-165?token=AOAPFCOMGKMKZW4Z7E3ZWELC5723S" alt="image-20220731164743212" style="zoom: 50%;" />
 
 - `锁所在的事务信息`:**一个指针**,通过指针可以找到内存中关于拥有该锁的事务的更多信息
 
@@ -3884,7 +3884,7 @@ SET [GLOBAL|SESSION] TRANSACTION ISOLATION LEVEL 隔离级别;
 
 - `type_mode`:一个**32位的数**，被分成了`lock_mode`、`lock_type`和`rec_lock_type`三个部分
 
-  - <img src="F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220731165521878.png" alt="image-20220731165521878" style="zoom:50%;" />
+  - <img src="https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-166?token=AOAPFCIFKZZL6OVVXD4BSCLC5724C" alt="image-20220731165521878" style="zoom:50%;" />
   - **`lock_mode`用于指明锁的模式**
     - `LOCK_IS`（十进制的`0`）：也就是当**该区域所有比特位置为`0`时生效**,表示**意向共享锁**，也就是`IS锁` 。
     - `LOCK_IX`（十进制的`1`）：也就是当**倒数第`1`个比特位置为`1`时生效**,表示**意向排他锁**，也就是`IX锁` 。
@@ -3983,14 +3983,14 @@ SET [GLOBAL|SESSION] TRANSACTION ISOLATION LEVEL 隔离级别;
 
 > **一个指针**,我们知道每当我们对数据表的某条记录进行修改时,就会事先将该记录的原始数据存储到我们的`Undo Log`中.而我们的**`roll pointer`就是一个指针,其指向我们当前数据记录的原始数据在`Undo Log`中的位置**
 >
-> <img src="F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220731221144901.png" alt="image-20220731221144901" style="zoom: 67%;" />
+> <img src="https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-167?token=AOAPFCIX3MUQVTEZ7LJCM5DC57246" alt="image-20220731221144901" style="zoom: 67%;" />
 
 - **注意**
   - 每次对记录进行改动，都会记录一条`undo日志`，**每条`undo日志`也都有一个` roll_pointer属性`**  
   - `INSERT `操作对应的`undo日志`**没有该属性，因为该记录并没有更早的版本**  
   - **`Undo Log`中每一条日志的`roll pointer`的作用在于充当链表的`next pointer`的作用的指针,将我们一条一条的`Undo Log`日志组织成一个链表**
     - ==**值得注意的是,这个组织成的链表中的每一条`Undo Log`日志都是记录同一个数据表下同一个数据记录的变化的**==
-    - <img src="F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220731221119777.png" alt="image-20220731221119777" style="zoom: 30%;" />
+    - <img src="https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-168?token=AOAPFCPA7RHJG5R6L3WM44LC5725M" alt="image-20220731221119777" style="zoom: 30%;" />
   - 对该记录每次更新后,都会将旧值放到一条` undo日志 `中，就算**是该记录的一个旧版本**，随着更新次数的增多，**该记录的所有的版本都会被` roll_pointer `属性连接成一个链表**，我们把**这个链表称之为 `版本链`** ，版本链的**头节点就是当前记录最新的值**  
 
 #### ==`Read View`==
@@ -4164,7 +4164,7 @@ SET [GLOBAL|SESSION] TRANSACTION ISOLATION LEVEL 隔离级别;
 > - **数据恢复**  
 > - **数据复制**
 >
-> <img src="F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220801151356081.png" alt="image-20220801151356081" style="zoom: 60%;" />
+> <img src="https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-169?token=AOAPFCJOQSJSJRMESD33CWDC5726E" alt="image-20220801151356081" style="zoom: 60%;" />
 
 #### 日志状态管理
 
@@ -4280,8 +4280,8 @@ SET [GLOBAL|SESSION] TRANSACTION ISOLATION LEVEL 隔离级别;
 - **然后`MySQL`服务器会将该`Bin Log`记录保存到我们内存上的`Bin Log Cache`中**
   - 因为一个事务的`Bin Log`不能被拆开，无论这个事务多大，也要确保一次性写入，所以系统会给每个事务所属的线程分配一个块内存作为`Bin log Cache`。  
 - **然后`Bin Log Cache`中关于该事务的`Bin Log`记录就会按照我们指定的规则被保存到我们的磁盘上**
-- <img src="F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220801223025948.png" alt="image-20220801223025948" style="zoom:60%;" />
-- <img src="F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220801211554713.png" alt="image-20220801211554713" style="zoom: 60%;" />
+- <img src="https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-170?token=AOAPFCPKG2RXAADRP5CEQ6LC57264" alt="image-20220801223025948" style="zoom:60%;" />
+- <img src="https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-171?token=AOAPFCPDEY26QT2QM6HPBI3C5727K" alt="image-20220801211554713" style="zoom: 60%;" />
 
 ### `Bin Log`,`Redo Log`,`Undo Log`
 
@@ -4294,10 +4294,10 @@ SET [GLOBAL|SESSION] TRANSACTION ISOLATION LEVEL 隔离级别;
 ### 基于`两阶段设计模式`的`Redo Log`加`Bin Log`的数据恢复
 
 > - 由于`Bin Log`要在我们的事务提交完成后**进行`COMMIT`后才会生成该事务的`Bin Log`记录并写入`Bin Log Cache`**.因此如果在我们`MySQL`服务器运行过程中我们的事务刚刚进行完``COMMIT``操作我们的`MySQL`服务端进程**发生错误中断了**,那么显然此时我们的这个事务的**`Bin Log`记录肯定无法完成,但是很显然此时的`Redo Log`是完整的写完了的,只不过处在`prepare`阶段**.
->   - <img src="F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220801223448222.png" alt="image-20220801223448222" style="zoom:60%;" />
+>   - <img src="https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-172?token=AOAPFCOPSXQLWI7ZAXBYODLC573AA" alt="image-20220801223448222" style="zoom:60%;" />
 > - **此时就会导致一个问题,我们的`Redo Log`中有相应的记录,而本来应该保存了所有的数据修改语句的`Bin Log`中却少了这一些记录.而无论是我们的`主从复制`,`数据恢复`,`数据复制备份`都是利用`Bin Log`来进行的.显然在这样的情况下,我们备份得到的数据是相对于我们原数据少了一些修改操作的,因此我们必须借助`Redo Log`才能完成`主从复制`,`数据恢复`,`数据复制备份`**
 >
-> <img src="F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220801223056531.png" alt="image-20220801223056531" style="zoom:67%;" />
+> <img src="https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-173?token=AOAPFCJCN4LEHVHPUDY34U3C573BM" alt="image-20220801223056531" style="zoom:67%;" />MySQL进阶-4
 
 ##### 注意
 
@@ -4307,8 +4307,8 @@ SET [GLOBAL|SESSION] TRANSACTION ISOLATION LEVEL 隔离级别;
 - 当在事务的`COMMIT`阶段的**`Bin Log`写入过程中出错**,那么此时**不认为是事务的失败**,因此我们**可以直接通过`Prepare`状态的`Redo Log`来进行数据的恢复**
 - 当在事务的`COMMIT`阶段的**`Redo Log`的`COMMITTED`状态设置写入过程中出错**,那么此时**不认为是事务的失败**,因此我们**可以直接通过`Bin Log`来进行数据的恢复**
 
-- ![image-20220801223506641](F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220801223506641.png)
-- ![image-20220801223520040](F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220801223520040.png)
+- ![image-20220801223506641](https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-175?token=AOAPFCLMSQ775GJK77MLFZ3C573CO)
+- ![image-20220801223520040](https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-176?token=AOAPFCOQNX7WZ23A7YY6PBLC573DA)
 
 ### 中继日志(`Relay Log`)
 
@@ -4352,14 +4352,14 @@ SET [GLOBAL|SESSION] TRANSACTION ISOLATION LEVEL 隔离级别;
 > - 采用` 缓存的策略`
 > - 采用` 主从架构 `，进行`读写分离`  
 >
-> <img src="F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220802133744352.png" alt="image-20220802133744352" style="zoom:60%;" />
+> <img src="https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-177?token=AOAPFCPHVQ57HAMDID2HLJLC573DW" alt="image-20220802133744352" style="zoom:60%;" />
 
 ### 主从复制的作用解读
 
 - ** 	**
 
   - 即通过**设置多个子服务进程**的方式(子服务进程的数据库与主服务进程的数据库是通过`Bin Log`进行同步的),**使得原本大量提交给主服务进程的`SQL`请求**中的一**大部分由子服务进程进行处理**,从而**减轻我们主服务进程的压力**.
-  - <img src="F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220802134036650.png" alt="image-20220802134036650" style="zoom: 60%;" />
+  - <img src="https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-178?token=AOAPFCPWKOGUT4QWUN6ELXDC573EE" alt="image-20220802134036650" style="zoom: 60%;" />
 
 - **`数据备份`**
 
@@ -4378,7 +4378,7 @@ SET [GLOBAL|SESSION] TRANSACTION ISOLATION LEVEL 隔离级别;
 - :four:`IO`线程接收到我们的`Bin Log`后就会**利用其更新自己的中继日志文件`Relay Log`**.
 - :five:然后我们从服务进程的**`SQL`线程就会读取我们的`Relay Log`文件内容**,然后根据该文件中的内容对从服务进程的**数据库中的数据进行更新**.
 
-![image-20220802134208719](F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220802134208719.png)
+![image-20220802134208719](https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-179?token=AOAPFCLHQRBTMFZX23HTEQDC573EW)
 
 ### 主从架构的问题与原则
 
@@ -4394,7 +4394,7 @@ SET [GLOBAL|SESSION] TRANSACTION ISOLATION LEVEL 隔离级别;
 
 #### 一主一从
 
-> 在这样的架构下**`主服务进程`**一般被用于**处理所有客户端发起的`写数据请求`**,而**`从服务进程`**一般被用于**处理所有客户端发起的`读数据请求`**<img src="F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220802182404352.png" alt="image-20220802182404352" style="zoom:67%;" />
+> 在这样的架构下**`主服务进程`**一般被用于**处理所有客户端发起的`写数据请求`**,而**`从服务进程`**一般被用于**处理所有客户端发起的`读数据请求`**<img src="https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-180?token=AOAPFCPNI6OKIABUHIB3CCDC573FI" alt="image-20220802182404352" style="zoom:67%;" />
 
 ##### 基本流程
 
@@ -4457,9 +4457,9 @@ SET [GLOBAL|SESSION] TRANSACTION ISOLATION LEVEL 隔离级别;
   ```
 
   - **不同格式的区别**
-    - <img src="F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220802203249951.png" alt="image-20220802203249951" style="zoom:67%;" />
-    - <img src="F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220802203310426.png" alt="image-20220802203310426" style="zoom:67%;" />
-    - <img src="F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220802203324427.png" alt="image-20220802203324427" style="zoom:67%;" />\
+    - <img src="https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-181?token=AOAPFCI6HXXLPIASZSYMEJ3C573GC" alt="image-20220802203249951" style="zoom:67%;" />
+    - <img src="https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-182?token=AOAPFCMGDSV3OZTCHG4B44LC573G2" alt="image-20220802203310426" style="zoom:67%;" />
+    - <img src="https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-183?token=AOAPFCIQXJHSDWSURVNBO43C573HI" alt="image-20220802203324427" style="zoom:67%;" />\
 
 - :five:**对从机的`MySQL`配置文件进行修改**
 
@@ -4527,9 +4527,9 @@ SET [GLOBAL|SESSION] TRANSACTION ISOLATION LEVEL 隔离级别;
 
 > **即建立多个主服务器处理`写请求`,以及多个从服务器用于处理`读请求`.配置过程与一主一从类似.只不过要按照下图的关系来配置我们的主从关系**
 
-![image-20220802214343857](F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220802214343857.png)
+![image-20220802214343857](https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-184?token=AOAPFCMIZOTN7RELJD6LW73C573HY)
 
-![image-20220802214348777](F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220802214348777.png)
+![image-20220802214348777](https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-185?token=AOAPFCPJ3A2TTD4Z7JTTOHLC573II)
 
 ### 主从架构的数据同步问题
 
@@ -4562,11 +4562,11 @@ SET [GLOBAL|SESSION] TRANSACTION ISOLATION LEVEL 隔离级别;
 
 ##### 异步复制
 
-<img src="F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220802231416946.png" alt="image-20220802231416946" style="zoom: 67%;" />
+<img src="https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-186?token=AOAPFCPDWVLBXIABPQ437W3C573I6" alt="image-20220802231416946" style="zoom: 67%;" />
 
 ##### 半同步复制
 
-<img src="F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220802231429588.png" alt="image-20220802231429588" style="zoom:67%;" />
+<img src="https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-187?token=AOAPFCMO2GQRGAYQ4IA43VTC573JO" alt="image-20220802231429588" style="zoom:67%;" />
 
 ##### 组复制`MGR`
 
@@ -4577,7 +4577,7 @@ SET [GLOBAL|SESSION] TRANSACTION ISOLATION LEVEL 隔离级别;
   - 根据上面的复制组构建起一个**一致性协议层`Consensus层`**
   - 当复制组内**某一个节点**要`执行读写(RW)事务`时,如果想要执行`COMMIT`,也就是读写事务想要进行提交,必须**在`Consensus层`经过复制组内一半以上的节点同意**才能执行,**否则必须阻塞**
   - 当复制组内**某个节点**要执行`只读(RO)事务`时,则**不加阻碍**,`Consensus层`或直接予以同意
-  - ![image-20220802232543902](F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220802232543902.png)
+  - ![image-20220802232543902](https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-188?token=AOAPFCMZJFKJGPG2CWPIWKTC573J4)
 
 ### 常用数据库中间件介绍
 
@@ -4874,7 +4874,7 @@ mysqldump –u <用户名称> –h <主机名称> -P <端口号> –p <密码> -
   mysql -uroot -p --execute = "SELECT * FROM account;" atguigu > "/var/lib/mysqlfiles/account.txt"
   ```
 
-  - <img src="F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220802164022499.png" alt="image-20220802164022499" style="zoom: 67%;" />
+  - <img src="https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-189?token=AOAPFCJHTXSLXC3B7NKEFR3C573LA" alt="image-20220802164022499" style="zoom: 67%;" />
 
 - **方式2**
 
@@ -4883,7 +4883,7 @@ mysqldump –u <用户名称> –h <主机名称> -P <端口号> –p <密码> -
   "/var/lib/mysql-files/account_1.txt"
   ```
 
-  - <img src="F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220802164105113.png" alt="image-20220802164105113" style="zoom: 50%;" />
+  - <img src="https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-190?token=AOAPFCJKIH47QP6GDUYOKNDC573LO" alt="image-20220802164105113" style="zoom: 50%;" />
 
 - **导出到`XML`文件**
 
@@ -4891,7 +4891,7 @@ mysqldump –u <用户名称> –h <主机名称> -P <端口号> –p <密码> -
   mysql -uroot -p --xml --execute="SELECT * FROM account;" atguigu>"/var/lib/mysqlfiles/account_3.xml"
   ```
 
-  - <img src="F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220802164213538.png" alt="image-20220802164213538" style="zoom:60%;" />
+  - <img src="https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-191?token=AOAPFCK52X5M64Q2XZYHKCTC573MC" alt="image-20220802164213538" style="zoom:60%;" />
 
 - **导出到`HTML`文件**
 
@@ -4964,8 +4964,8 @@ mysqlimport -uroot -p atguigu '/var/lib/mysql-files/account.txt' --fields-termin
 - **注意事项**
 
   - **当不指定数据库名与表名这些选项时**
-    - <img src="F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220802152217291.png" alt="image-20220802152217291" style="zoom:55%;" />
+    - <img src="https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-192?token=AOAPFCPNNQQ7LCEWSRQNFULC573M6" alt="image-20220802152217291" style="zoom:55%;" />
   - **当只指定数据库名不指定表名时**
-    - <img src="F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220802152321494.png" alt="image-20220802152321494" style="zoom:55%;" />
+    - <img src="https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-193?token=AOAPFCLNZSJDLVD2SCEYPRLC573NM" alt="image-20220802152321494" style="zoom:55%;" />
   - **当指定数据库名数据表名,不指定列名时**
-    - <img src="F:\A_Java_DataBase_Study_FIle\DataBase\MySQL\07MySQL进阶.assets\image-20220802152439911.png" alt="image-20220802152439911" style="zoom:55%;" />
+    - <img src="https://raw.githubusercontent.com/tangling0112/MyPictures/master/img/MySQL%E8%BF%9B%E9%98%B6-194?token=AOAPFCM43PAZGA3YYJ55J2DC573OA" alt="image-20220802152439911" style="zoom:55%;" />
